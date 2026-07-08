@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise Project Management Platform",
+  "description": "An enterprise-grade, role-based project and task management system with real-time collaboration, advanced analytics, and AI assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

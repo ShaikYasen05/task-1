@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // In this simulation and preview environment, clients are unauthenticated.
+    // We allow read and write access to all documents to support high-fidelity database seeding and synchronization.
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
